@@ -11,3 +11,8 @@ const playRound = (playerSelection, computerSelection) => {
     ? "Player 2 won!"
     : "Draw!";
 };
+
+const computerChoice = () => {
+  const choice = Math.floor(Math.random() * 3);
+  return choice === 0 ? "rock" : choice === 1 ? "paper" : "scissors";
+};
