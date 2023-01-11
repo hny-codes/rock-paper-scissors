@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100%;
+}
+
+.container {
+  background-image: repeating-linear-gradient(
+    0deg,
+    #55d0f1,
+    #55d0f1 2px,
+    transparent 2px,
+    transparent
+  );
+  background-size: 32px 32px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  height: calc(100vh - 40px);
+}
