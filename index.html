@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Rock Paper Scissors</title>
-</head>
-<body>
-    <script src="index.js"></script>
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Rock.... PAPER SCISSORS!</h1>
+        <h3>5 rounds!</h3>
+      </div>
+      <div class="game-choices">
+        <button class="game-choice">
+          <img src="images/rock.png" alt="rock">
+          <p>Rock</p>
+        </button>
+        <button class="game-choice">
+          <img src="images/paper.png" alt="paper">
+          <p>Paper</p>
+        </button>
+        <button class="game-choice">
+          <img src="images/scissors.png" alt="scissors">
+          <p>Scissors</p>
+        </button>
+      </div>
+      <div class="score">
+        <h2 class="matchup">Let's see the matchup..</h2>
+        <div class="score-container">
+          <h2 class="player-score">Your Score:</h2>
+          <h2 class="enemy-score">Enemy Score:</h2>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+  <footer>
+    <a href="https://github.com/hny-codes">
+      <img src="images/Github-Dark.svg" width="32px" height="32x" alt="github profile">
+    </a>
+    <h3>hny-codes</h3>
+  </footer>
 </html>
