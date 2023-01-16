@@ -27,6 +27,12 @@ body {
   height: calc(100vh - 40px);
 }
 
+.container img {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+}
+
 .title {
   display: flex;
   flex-direction: column;
