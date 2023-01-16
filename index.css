@@ -39,6 +39,15 @@ body {
   cursor: pointer;
 }
 
+.game-choice:hover {
+  scale: 1.1;
+  border-color: yellow;
+}
+
+.game-choice:active {
+  scale: 0.9;
+}
+
 .score {
   display: flex;
   flex-direction: column;
