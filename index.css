@@ -79,3 +79,13 @@ body {
 .score-container > *{
   padding: 1rem 1rem;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h3 {
+  padding-left: 1rem;
+}
