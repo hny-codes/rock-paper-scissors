@@ -45,7 +45,6 @@ const playGame = (e) => {
   }
 
   gameTracker += 1;
-  console.log(gameTracker);
 };
 
 // Event listener to remove the game when 5 games have been played
