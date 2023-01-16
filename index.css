@@ -25,6 +25,23 @@ body {
   padding: 2rem;
   height: calc(100vh - 40px);
 }
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title h1 {
+  padding: 1rem 0;
+  font-size: 64px;
+}
+
+.title h3 {
+  padding: 1rem 0;
+  font-size: 48px;
+}
+
 .game-choices {
   display: flex;
   justify-content: space-between;
